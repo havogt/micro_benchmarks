@@ -1,0 +1,9 @@
+---
+BasedOnStyle:                                           WebKit
+Language:                                               Cpp
+Standard:                                               Cpp11
+ColumnLimit:                                            100
+PointerAlignment:                                       Left
+SpaceBeforeParens:                                      Never
+AlwaysBreakTemplateDeclarations:                        true
+...
