@@ -7,3 +7,6 @@ set( CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -arch=${CUDA_ARCH}" )
 
 add_executable( main src/main.cu )
 
+add_executable( dev_sync test/dev_sync/dev_sync.cu )
+set_property(TARGET dev_sync PROPERTY CUDA_SEPARABLE_COMPILATION ON)
+
